@@ -1,0 +1,3 @@
+[submodule "themes/lynx-gohugo-theme"]
+	path = themes/lynx-gohugo-theme
+	url = git@github.com:cdwiegand/lynx-gohugo-theme.git
