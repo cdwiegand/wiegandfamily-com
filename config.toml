@@ -13,7 +13,7 @@ disableKinds = ["taxonomy", "term"]
   name = "Chris Wiegand"
   headline = "My personal musings and things important to me"
   image = "https://avatars.githubusercontent.com/u/121301?s=400&v=4"
-  links = [
+  homepage_links = [
     { link = { href = "https://www.wiegandfd.com/", text = "Wiegand Family Distribution can be found here", icon = "fa fa-beer" } },
     { twitter = "https://twitter.com/cdwiegand" },
     { github = "https://github.com/cdwiegand" },
