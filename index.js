@@ -11,6 +11,7 @@ function index_init() {
       icon: "fa fa-beer",
       bgcolor: "bg-purple",
     },
+    { href: "https://aurora156.org/", text: "Aurora Revelation Lodge 156", icon: "fa fa-compass-drafting", bgcolor: "bg-purple" },
     { href: "https://twitter.com/cdwiegand", text: "Twitter", bgcolor: "link-twitter", icon: "fa fa-twitter" },
     { href: "https://github.com/cdwiegand", text: "GitHub", bgcolor: "link-github", icon: "fa fa-github" },
     { href: "https://mastodon.social/@chris_wiegand", text: "Mastodon", bgcolor: "link-mastodon", icon: "fa fa-mastodon" },
