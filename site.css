@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.index_item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bg_trans {
+    background-color: transparent;
+}
+.bg_purple {
+    background-color: rgb(126 34 206);
+    color: white;
+}
