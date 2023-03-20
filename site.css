@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+body { background-color: rgb(31 41 55/var(--tw-bg-opacity)); }
+
 .index_item {
     margin-top: 10px;
     margin-bottom: 10px;
