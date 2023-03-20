@@ -18,6 +18,10 @@ body { background-color: rgb(31 41 55/var(--tw-bg-opacity)); }
     background-color: rgb(126 34 206);
     color: white;
 }
+.bg-techelet {
+background=color: #075299; 
+color: white;
+}
 
 .link:hover {
     --tw-brightness: brightness(.9);
