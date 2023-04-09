@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body { background-color: rgb(31 41 55); }
+body { background-color: rgb(148, 148, 148); padding-top: 20px;  }
 
 #index_image_me { margin: 0 auto; }
+#img_freemason { margin: 0 auto; max-width: 50%; max-height: 400px; }
 
 .index_item {
     margin-top: 10px;
@@ -19,8 +20,8 @@ body { background-color: rgb(31 41 55); }
     color: white;
 }
 .bg-techelet {
-background=color: #075299; 
-color: white;
+    background-color: #075299; 
+    color: white;
 }
 
 .link:hover {
