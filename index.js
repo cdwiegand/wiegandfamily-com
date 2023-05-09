@@ -11,7 +11,9 @@ function index_init() {
       icon: "fa fa-beer",
       bgcolor: "bg-purple",
     },
+    { href: "https://native-land.ca/", text: "I recognize I live on the traditional territories of the Arapaho, Ute, and Cheyenne nations.", icon: "fa fa-location-dot", bgcolor: "bg-black" },
     { href: "https://aurora156.org/", text: "Aurora Revelation Lodge 156", icon: "fa fa-compass-drafting", bgcolor: "bg-techelet" },
+    { href: "https://project529.com/garage", text: "Register your bike BEFORE it's stolen", icon: "fa fa-bicycle", bgcolor: "bg-bikes" },
     { href: "https://twitter.com/cdwiegand", text: "Twitter", bgcolor: "link-twitter", icon: "fa fa-brands fa-twitter" },
     { href: "https://github.com/cdwiegand", text: "GitHub", bgcolor: "link-github", icon: "fa fa-brands fa-github" },
     { href: "https://mastodon.social/@chris_wiegand", text: "Mastodon", bgcolor: "link-mastodon", icon: "fa fa-brands fa-mastodon" },
@@ -62,12 +64,6 @@ function index_init() {
       href: "http://www.woodbadge.org/",
       text: "My Woodbadge critter: Fox",
       icon: "fa fa-ticket",
-      bgcolor: "bg-purple",
-    },
-    {
-      href: "https://beafreemason.org/",
-      text: "Be a Freemason",
-      icon: "fa fa-handshake-o",
       bgcolor: "bg-purple",
     },
   ];

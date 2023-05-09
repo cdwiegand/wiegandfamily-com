@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body { background-color: rgb(148, 148, 148); padding-top: 20px;  }
+body { background-color: rgb(198, 198, 198); padding-top: 20px;  }
+.text-center { text-align: center; }
 
 #index_image_me { margin: 0 auto; }
-#img_freemason { margin: 0 auto; max-width: 50%; max-height: 400px; }
 
 .index_item {
     margin-top: 10px;
@@ -15,9 +15,17 @@ body { background-color: rgb(148, 148, 148); padding-top: 20px;  }
 .bg-trans {
     background-color: transparent;
 }
+.bg-black {
+    background-color: #000;
+    color: white;
+}
 .bg-purple {
     background-color: rgb(126 34 206);
     color: white;
+}
+.bg-bikes {
+    background-color: #ffea00;
+    color: black;
 }
 .bg-techelet {
     background-color: #075299; 
