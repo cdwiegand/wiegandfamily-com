@@ -18,16 +18,15 @@
     <meta name="twitter:title" content="Chris Wiegand&#39;s site" />
     <meta name="twitter:description" content="Chris&#39; personal musings." />
     <meta name="author" content="Chris Wiegand" />
-    <link rel="stylesheet" href="./site.css" />
-    <link rel="stylesheet" href="./tailwind.css" />    
-  <link href="./fontawesome/css/fontawesome.css" rel="stylesheet">
-  <link href="./fontawesome/css/brands.css" rel="stylesheet">
-  <link href="./fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="/tailwind.css" />
+    <link href="/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/fontawesome/css/solid.css" rel="stylesheet" />
   </head>
   <body>
     <div class="text-white">
       <div>
-        <img 
+        <img
           class="mb-2 mx-auto rounded-full w-36 h-36"
           width="144"
           height="144"
@@ -36,35 +35,36 @@
         />
       </div>
       <div class="p-6 max-w-xl mx-auto items-center space-x-4 text-center">
-        <h1 class="text-3xl text-black font-semibold">Chris Wiegand's website</h1></div>
+        <h1 class="text-3xl text-white font-semibold">Chris Wiegand's website</h1>
+      </div>
       <div id="template_div">
-        <div class="p-6 max-w-xl mx-auto rounded-xl shadow-lg flex items-center space-x-4 index_item text-white {{bgcolor}}">
-            <div class="shrink-0">
-              <i class="{{icon}}"></i>
-            </div>
-            <div>
-              <a template-href="{{href}}" class="text-xl font-medium">{{text}}</div>
-              <p class="text-slate-500">{{description}}</p>
-            </div>
+        <div class="p-6 max-w-xl mx-auto rounded-xl shadow-lg flex items-center space-x-4 index_item {{bgcolor}}">
+          <div class="shrink-0">
+            <i class="{{icon}}"></i>
           </div>
+          <div>
+            <a template-href="{{href}}" class="text-xl font-medium">{{text}}</a>
+            <p class="text-slate-500">{{description}}</p>
+          </div>
+        </div>
       </div>
       <div id="div-freemason" class="max-w-xl mx-auto rounded-xl flex items-center index_item">
-          <a href="https://beafreemason.org/">
-              <img src="./Landscape-Poster-008.jpg" id="img_freemason" class="rounded-xl" alt="Whatever lift throws at you, you have millions of brothers to help you catch it. Not just a man. A Mason." />
-          </a>
+        <a href="https://beafreemason.org/">
+          <img
+            src="/Landscape-Poster-008.jpg"
+            id="img_freemason"
+            class="rounded-xl"
+            alt="Whatever lift throws at you, you have millions of brothers to help you catch it. Not just a man. A Mason."
+          />
+        </a>
       </div>
     </div>
     <footer class="py-10 mx-auto">
       <div class="text-center">
-        <p class="text-sm text-black">
-            &copy; 2023 Chris Wiegand
-        </p>
+        <p class="text-sm text-white">&copy; 2023 Chris Wiegand</p>
       </div>
     </footer>
-    <script
-      src="./jquery.min.js"
-      disabled-integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-      crossorigin="anonymous"></script>
-    <script async src="./index.js" type="application/javascript"></script>
+    <script async src="/site.js" type="application/javascript"></script>
+    <script async src="/index.links.js" type="application/javascript"></script>
   </body>
 </html>

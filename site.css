@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body { background-color: rgb(198, 198, 198); padding-top: 20px;  }
+body { background-color: rgb(31, 41, 55); padding-top: 20px; color: #fff; }
+
 .text-center { text-align: center; }
 
 #index_image_me { margin: 0 auto; }
@@ -19,9 +20,25 @@ body { background-color: rgb(198, 198, 198); padding-top: 20px;  }
     background-color: #000;
     color: white;
 }
+.bg-red {
+    background-color: #cf0000;
+    color: white;
+}
+.bg-orange {
+    background-color: #fcb500;
+    color: black;
+}
+.bg-green {
+    background-color: rgb(44, 173, 44);
+    color: white;
+}
 .bg-purple {
     background-color: rgb(126 34 206);
     color: white;
+}
+.bg-white {
+    background-color: rgb(241, 241, 241);
+    color: black;
 }
 .bg-bikes {
     background-color: #ffea00;
