@@ -37,14 +37,21 @@
       <div class="p-6 max-w-xl mx-auto items-center space-x-4 text-center">
         <h1 class="text-3xl text-white font-semibold">Chris Wiegand's website</h1>
       </div>
-      <div id="template_div">
-        <div class="p-6 max-w-xl mx-auto rounded-xl shadow-lg flex items-center space-x-4 index_item {{bgcolor}}">
-          <div class="shrink-0">
-            <i class="{{icon}}"></i>
+      <div id="groups">
+        <div id="group_template_div">
+          <div class="p-6 max-w-xl mx-auto">
+            <h1 class="text-4xl">{{title}}</h1>
           </div>
-          <div>
-            <a template-href="{{href}}" class="text-xl font-medium">{{text}}</a>
-            <p class="text-slate-500">{{description}}</p>
+          <div id="item_template_div">
+            <div class="p-6 max-w-xl mx-auto rounded-xl shadow-lg flex items-center space-x-4 index_item {{bgcolor}}">
+              <div class="shrink-0">
+                <i class="{{icon}}"></i>
+              </div>
+              <div>
+                <a template-href="{{href}}" class="text-xl font-medium">{{text}}</a>
+                <p class="text-slate-500">{{description}}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
