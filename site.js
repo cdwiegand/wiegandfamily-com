@@ -23,6 +23,7 @@ function wiegand_page_init() {
     newGroup.id = "group_" + gidx;
     groupTemplateDiv.parentNode.appendChild(newGroup);
     newGroup.style.display = "inherit";
+    let defaultIcon = group.icon ?? "fa fa-external-link";
 
     group.links.forEach((val, idx) => {
       let newOneHtml = itemTemplateDiv.innerHTML;
@@ -30,7 +31,7 @@ function wiegand_page_init() {
       newOneHtml = newOneHtml.replace(' id="item_template_div"', "");
       newOneHtml = newOneHtml.replace("{{href}}", val.href);
       newOneHtml = newOneHtml.replace("{{text}}", val.text);
-      newOneHtml = newOneHtml.replace("{{icon}}", val.icon ?? "");
+      newOneHtml = newOneHtml.replace("{{icon}}", val.icon ?? defaultIcon);
       newOneHtml = newOneHtml.replace("{{alt}}", val.alt ?? "");
       newOneHtml = newOneHtml.replace("{{bgcolor}}", val.bgcolor ?? defaultBackground);
       newOneHtml = newOneHtml.replace("{{description}}", val.description ?? "");

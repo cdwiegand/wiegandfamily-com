@@ -48,6 +48,18 @@ window.wiegand_page_links = [
     ],
   },
   {
+    title: "Youtube Channels I Follow",
+    icon: "fa fa-brands fa-youtube",
+    links: [
+      { href: "https://www.youtube.com/@NotJustBikes", text: "Not Just Bikes" },
+      { href: "https://www.youtube.com/@strongtowns", text: "StrongTowns" },
+      { href: "https://www.youtube.com/@Shifter_Cycling", text: "Shifter Cycling" },
+      { href: "https://www.youtube.com/@KerevDesign", text: "Kerev Design (Mobile UI/UX)" },
+      { href: "https://www.youtube.com/@LIGHTSAREOFF", text: "Lights Are Off (TW: Can be scary)" },
+      { href: "https://www.youtube.com/@CityNerd", text: "City Nerd" },
+    ],
+  },
+  {
     title: "Social Media",
     links: [
       {
